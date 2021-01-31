@@ -3,15 +3,15 @@
 <head>
   <title> Test Page For BNWYF</title>
 </head>
-  <body>
-    <div id="debug"></div>
-    <script>
-    fetch("elementor-204-2021-01-30.json")
-    .then(response => response.json())
-    .then(data.=>{
+<body>
+  <div id="debug"></div>
+  <script>
+  fetch("elementor-204-2021-01-30.json")
+  .then(response => response.json())
+  .then(data.=>{
     console.log(data.sentence)
     document.quwrySelector("debug").innerText = data.sentence
-    })
-    </script>
-  </body>
+  })
+  </script>
+</body>
 </html>
